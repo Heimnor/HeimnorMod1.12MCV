@@ -1,0 +1,33 @@
+{
+	"parent": "item/handheld", 
+	"textures": 
+	{
+		"layer0": "heimnormod:items/weapons/deuxmains"
+	}, "display": 
+	{
+		"thirdperson_righthand": 
+		{
+			"rotation": [ 0, -90, 30 ],
+			"translation": [ 0, 8, 4 ], 
+			"scale": [ 1.5, 1.5, 1.0 ]
+			
+		}, "thirdperson_lefthand": 
+		{
+			"rotation": [ 0, 90, -30 ],
+			"translation": [ 0, 8, 4 ], 
+			"scale": [ 1.5, 1.5, 1.0 ]
+			
+		}, "firstperson_lefthand": 
+		{
+			"rotation": [ 0, 90, -30 ], 
+			"translation": [ 0, 4, 3 ], 
+			"scale": [ 1, 1, 0.75 ]
+		}, "firstperson_righthand": 
+		{
+			"rotation": [ 0, -90, 30 ],
+			"translation": [ 0, 4, 3 ], 
+			"scale": [ 1, 1, 0.75 ]
+			
+		}
+	}
+}

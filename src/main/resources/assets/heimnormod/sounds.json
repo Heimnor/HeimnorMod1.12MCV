@@ -1,0 +1,35 @@
+{
+    "clochette_sound":
+    {
+        "category": "master",
+        "sounds":
+        [
+            {
+                "name": "heimnormod:clochette_sound",
+                "stream": false
+            }
+        ]
+    },
+    "des_sound":
+    {
+    	"category": "master",
+    	"sounds":
+    	[
+    		{
+    			"name": "heimnormod:des_sound",
+    			"stream": false
+    		}
+    	]
+    },
+    "equiparmor":
+    {
+    	"category": "ambient",
+    	"sounds":
+    	[
+    		{
+    			"name": "heimnormod:equiparmor",
+    			"stream": false
+    		}
+    	]
+    }
+}

@@ -1,0 +1,39 @@
+package com.heimnor.packet;
+
+import com.heimnor.common.Heimnor;
+
+import io.netty.buffer.ByteBuf;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
+import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+public class IMessageChatClose implements IMessage {
+
+	public IMessageChatClose() {
+	}
+
+
+	@Override
+	public void fromBytes(ByteBuf buf) {
+
+	}
+
+	@Override
+	public void toBytes(ByteBuf buf) {
+
+	}
+
+	public static class IMessageHandlerChatClose implements IMessageHandler<IMessageChatClose, IMessage> {
+
+		@Override
+		public IMessage onMessage(IMessageChatClose message, MessageContext ctx) {
+
+			EntityPlayerMP player = ctx.getServerHandler().player;
+			Heimnor.network.sendToAll(new IMessageChatCloseReponse(player.getDisplayNameString()));
+			return null;
+		}
+
+	}
+
+}

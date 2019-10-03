@@ -1,0 +1,16 @@
+[
+{
+  "modid": "heimnormod",
+  "name": "Heimnor",
+  "description": "Ajouts exclusifs d'Heimnor",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Joe"],
+  "credits": "L'équipe Staff d'Heimnor",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

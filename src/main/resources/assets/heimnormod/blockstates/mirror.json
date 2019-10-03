@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=west": {
+            "model": "heimnormod:mirror"
+        },
+        "facing=east": {
+        	"model": "heimnormod:mirror",
+        	"y": 180
+        },
+        "facing=south": {
+        	"model": "heimnormod:mirror",
+        	"y": 270
+        },
+        "facing=north": {
+        	"model": "heimnormod:mirror",
+        	"y": 90
+        }
+    }
+}
