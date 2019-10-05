@@ -10,9 +10,14 @@ import com.heimnor.capabilities.CharacterRP;
 import com.heimnor.capabilities.CharacterStorage;
 import com.heimnor.capabilities.ICharacterRP;
 import com.heimnor.client.PlayerDataEventHandler;
+import com.heimnor.command.player.ChatEmote;
+import com.heimnor.command.player.ChatHRP;
+import com.heimnor.command.player.ChatShout;
+import com.heimnor.command.player.ChatWhisper;
 import com.heimnor.command.player.CommandAJ;
 import com.heimnor.command.player.CommandJet;
 import com.heimnor.command.staff.HPerm;
+import com.heimnor.command.staff.HRename;
 import com.heimnor.creativetabs.HeimnorArmorCreativeTabs;
 import com.heimnor.creativetabs.HeimnorBlockCreativeTabs;
 import com.heimnor.creativetabs.HeimnorBlocksDecoTabs;
@@ -158,6 +163,11 @@ public class Heimnor
 		event.registerServerCommand(new CommandJet());
 		event.registerServerCommand(new HPerm());
 		event.registerServerCommand(new CommandAJ());
+		event.registerServerCommand(new HRename());
+		event.registerServerCommand(new ChatEmote());
+		event.registerServerCommand(new ChatHRP());
+		event.registerServerCommand(new ChatWhisper());
+		event.registerServerCommand(new ChatShout());
 		PermissionAPI.registerNode("com.heimnor.command.staff", DefaultPermissionLevel.OP, "Donne accès aux fonctionnalités de MJ");
 		PermissionAPI.registerNode("com.heimnor.command.player", DefaultPermissionLevel.NONE, "Donne accès aux commandes joueurs");
 		

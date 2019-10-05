@@ -3,7 +3,6 @@ package com.heimnor.packet;
 import java.io.File;
 import java.io.IOException;
 
-import com.heimnor.capabilities.CharacterProvider;
 import com.heimnor.common.Heimnor;
 import com.heimnor.utils.NbtCsFile;
 
@@ -145,8 +144,7 @@ public class IMessageCSSync implements IMessage {
 				NBTTagCompound indexf = NbtCsFile.getNbtTagCompound(fiches, "index");
 				NBTTagCompound nbtPerso = compound.getCompoundTag(identification);
 				NBTTagCompound nbtPersoServ = indexf.getCompoundTag(identification);
-
-				player.getCapability(CharacterProvider.CHAR_CAP, null).setRoleplayName(nbtPerso.getString("nomRP"));
+				
 				// Logs
 				System.out.println(playerName + " a modifie sa fiche perso :");
 				System.out.println("Ancienne fiche :" + nbtPersoServ);

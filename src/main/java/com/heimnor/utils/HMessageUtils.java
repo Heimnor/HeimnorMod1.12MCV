@@ -11,7 +11,14 @@ public class HMessageUtils {
 	public static void showError(String string, EntityPlayer player) {
 		
 		TextComponentString text = new TextComponentString(string);
-		text.setStyle(new Style().setBold(true).setColor(TextFormatting.RED));
+		text.setStyle(new Style().setColor(TextFormatting.RED));
+		player.sendMessage(text);
+	}
+	
+	public static void showInfoHRP(String string, EntityPlayer player) {
+		
+		TextComponentString text = new TextComponentString(string);
+		text.setStyle(new Style().setColor(TextFormatting.GRAY).setItalic(true));
 		player.sendMessage(text);
 	}
 }

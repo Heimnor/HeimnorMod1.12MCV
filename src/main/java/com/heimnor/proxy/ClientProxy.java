@@ -42,37 +42,6 @@ public class ClientProxy extends CommonProxy {
 		super.init();
 	}
 
-	@Override
-	public void registerRender() {
-
-		/*EquipmentRender.registerEquipmentRender();
-		renderID = RenderingRegistry.getNextAvailableRenderId();
-
-		renderCurtain = RenderingRegistry.getNextAvailableRenderId();
-		RenderingRegistry.registerBlockHandler(renderCurtain, new RenderRideau());
-
-		renderFloorWallS = RenderingRegistry.getNextAvailableRenderId();
-		RenderingRegistry.registerBlockHandler(renderFloorWallS, new RenderFloorWallS());
-
-		renderFloor = RenderingRegistry.getNextAvailableRenderId();
-		RenderingRegistry.registerBlockHandler(renderFloor, new RenderFloor());
-
-		renderSlab = RenderingRegistry.getNextAvailableRenderId();
-		RenderingRegistry.registerBlockHandler(renderSlab, new RenderSlab());
-
-		renderCobWeb = RenderingRegistry.getNextAvailableRenderId();
-		RenderingRegistry.registerBlockHandler(renderCobWeb, new RenderCobWeb());
-
-		renderTrapDoor = RenderingRegistry.getNextAvailableRenderId();
-		RenderingRegistry.registerBlockHandler(renderTrapDoor, new RenderTrapDoor());
-
-		renderRandom = RenderingRegistry.getNextAvailableRenderId();
-		RenderingRegistry.registerBlockHandler(renderRandom, new RenderRandomBlock());
-
-		RenderingRegistry.registerBlockHandler(new TESRInventoryRender());
-		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityDirection.class, new OneBlockRenderer());*/
-	}
-
 	@SubscribeEvent
 	public void onInitGuiEvent(InitGuiEvent.Post event) {
 
