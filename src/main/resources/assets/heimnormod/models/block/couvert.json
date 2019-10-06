@@ -1,0 +1,190 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "fourchette": "heimnormod:blocks/couvert/fourchette",
+        "verre_bois": "heimnormod:blocks/couvert/verre_bois",
+        "assiette": "heimnormod:blocks/couvert/assiette"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "assiette_center",
+            "from": [ 5, 1, 7 ], 
+            "to": [ 11, 1, 13 ], 
+            "faces": {
+                "up": { "texture": "#assiette", "uv": [ 2, 2, 14, 14 ] }
+            }
+        },
+        {
+            "name": "assiette_west",
+            "from": [ 4, 1, 8 ], 
+            "to": [ 5, 1, 12 ], 
+            "faces": {
+                "up": { "texture": "#assiette", "uv": [ 0, 4, 2, 12 ] }
+            }
+        },
+        {
+            "name": "assiette_east",
+            "from": [ 11, 1, 8 ], 
+            "to": [ 12, 1, 12 ], 
+            "faces": {
+                "up": { "texture": "#assiette", "uv": [ 14, 4, 16, 12 ] }
+            }
+        },
+        {
+            "name": "assiette_north",
+            "from": [ 6, 1, 6 ], 
+            "to": [ 10, 1, 7 ], 
+            "faces": {
+                "up": { "texture": "#assiette", "uv": [ 4, 0, 12, 2 ] }
+            }
+        },
+        {
+            "name": "assiette_south",
+            "from": [ 6, 1, 13 ], 
+            "to": [ 10, 1, 14 ], 
+            "faces": {
+                "up": { "texture": "#assiette", "uv": [ 4, 14, 12, 16 ] }
+            }
+        },
+        {
+            "name": "couteau_manche",
+            "from": [ 2, 1, 8 ], 
+            "to": [ 2.5, 1, 14 ], 
+            "faces": {
+                "up": { "texture": "#fourchette", "uv": [ 11, 0, 12, 12 ] }
+            }
+        },
+        {
+            "name": "fourchette_manche",
+            "from": [ 13.25, 1, 10 ], 
+            "to": [ 13.75, 1, 14 ], 
+            "faces": {
+                "up": { "texture": "#fourchette", "uv": [ 3, 5, 4, 12 ] }
+            }
+        },
+        {
+            "name": "fourchette_bout",
+            "from": [ 13, 1, 9 ], 
+            "to": [ 14, 1, 10 ], 
+            "faces": {
+                "up": { "texture": "#fourchette", "uv": [ 2, 3, 5, 5 ] }
+            }
+        },
+        {
+            "name": "verre_eau_content",
+            "from": [ 7, 2, 3 ], 
+            "to": [ 9, 2, 5 ], 
+            "faces": {
+                "up": { "texture": "#verre_bois", "uv": [ 0, 12, 4, 16 ] }
+            }
+        },
+        {
+            "name": "verre_north",
+            "from": [ 7, 0, 3 ], 
+            "to": [ 9, 3, 3 ], 
+            "faces": {
+                "north": { "texture": "#verre_bois", "uv": [ 5, 0, 9, 6 ] },
+                "south": { "texture": "#verre_bois", "uv": [ 5, 0, 9, 6 ] }
+            }
+        },
+        {
+            "name": "verre_west",
+            "from": [ 7, 0, 3 ], 
+            "to": [ 7, 3, 5 ], 
+            "faces": {
+                "east": { "texture": "#verre_bois", "uv": [ 5, 0, 9, 6 ] },
+                "west": { "texture": "#verre_bois", "uv": [ 5, 0, 9, 6 ] }
+            }
+        },
+        {
+            "name": "verre_east",
+            "from": [ 9, 0, 3 ], 
+            "to": [ 9, 3, 5 ], 
+            "faces": {
+                "east": { "texture": "#verre_bois", "uv": [ 5, 0, 9, 6 ] },
+                "west": { "texture": "#verre_bois", "uv": [ 5, 0, 9, 6 ] }
+            }
+        },
+        {
+            "name": "verre_south",
+            "from": [ 7, 0, 5 ], 
+            "to": [ 9, 3, 5 ], 
+            "faces": {
+                "north": { "texture": "#verre_bois", "uv": [ 5, 0, 9, 6 ] },
+                "south": { "texture": "#verre_bois", "uv": [ 5, 0, 9, 6 ] }
+            }
+        },
+        {
+            "name": "verre_bottom",
+            "from": [ 7, 0, 3 ], 
+            "to": [ 9, 0, 5 ], 
+            "faces": {
+                "up": { "texture": "#assiette", "uv": [ 5, 3, 7, 5 ] }
+            }
+        },
+        {
+            "name": "couteau_lame",
+            "from": [ 2.5, 1, 8.5 ], 
+            "to": [ 3, 1, 11.5 ], 
+            "faces": {
+                "up": { "texture": "#fourchette", "uv": [ 12, 1, 13, 6 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 12.5, 1, 8 ], 
+            "to": [ 13, 1, 9.5 ], 
+            "faces": {
+                "up": { "texture": "#fourchette", "uv": [ 1, 0, 2, 2.5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 13.25, 1, 8 ], 
+            "to": [ 13.75, 1, 9 ], 
+            "faces": {
+                "up": { "texture": "#fourchette", "uv": [ 3, 0, 4, 3 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 14, 1, 8 ], 
+            "to": [ 14.5, 1, 9.5 ], 
+            "faces": {
+                "up": { "texture": "#fourchette", "uv": [ 1, 0, 2, 2.5 ] }
+            }
+        }
+    ]
+}

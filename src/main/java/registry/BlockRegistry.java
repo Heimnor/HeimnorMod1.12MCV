@@ -25,9 +25,12 @@ public class BlockRegistry
 	
 	public static final Block MIRROR = new HDecoBlock(Material.ROCK, "mirror");
 	public static final ItemBlockHeimnor ITEM_MIRROR = (ItemBlockHeimnor) new ItemBlockHeimnor(MIRROR);
+
+	public static final Block COUVERT = new HDecoBlock(Material.ROCK, "couvert");
+	public static final ItemBlockHeimnor ITEM_COUVERT = (ItemBlockHeimnor) new ItemBlockHeimnor(COUVERT);
 	
-	public static final Block[] BLOCKS = new Block[] {PLAN_DE_TRAVAIL, MIRROR};
-	public static final Item[] ITEMS_BLOCK = new Item[] {ITEM_PLAN_DE_TRAVAIL, ITEM_MIRROR};
+	public static final Block[] BLOCKS = new Block[] {PLAN_DE_TRAVAIL, MIRROR, COUVERT};
+	public static final Item[] ITEMS_BLOCK = new Item[] {ITEM_PLAN_DE_TRAVAIL, ITEM_MIRROR, ITEM_COUVERT};
 	
 	public static void setBlockName(Block block, String name) {
 		

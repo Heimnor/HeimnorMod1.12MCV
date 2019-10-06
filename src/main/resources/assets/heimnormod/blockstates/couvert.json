@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=west": {
+            "model": "heimnormod:couvert"
+        },
+        "facing=east": {
+        	"model": "heimnormod:couvert",
+        	"y": 180
+        },
+        "facing=south": {
+        	"model": "heimnormod:couvert",
+        	"y": 270
+        },
+        "facing=north": {
+        	"model": "heimnormod:couvert",
+        	"y": 90
+        }
+    }
+}
